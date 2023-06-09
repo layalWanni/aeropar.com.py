@@ -146,56 +146,46 @@ button:hover{
 	padding: 100px 0;
 }
 
+.tecnam{
+  width: 1170px;
+  margin: 5% auto;
+}
+
 #tecnam .tecnam-top{
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
 
-#tecnam .one img{
-  width: 100%;
-  height: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.single-service{
   position: relative;
-}
-
-#tecnam .one .details{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  transition: 0.3s ease;
-}
-
-#tecnam .one:hover .details{
-  cursor: pointer;
-  background-color: rgba(240, 240, 240, 0.7);
-}
-
-#tecnam .one:nth-child(1) .details{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: start;
-}
-
-#tecnam .one:nth-child(2) .details{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  width: 31%;
+  height: 320px;
+  background: border-box;
+  background-color: #d8d8d8;
+  padding: 0 15px;
+  transition: .5s;
+  overflow: hidden;
+  float: left;
+  margin: 0 10px;
   text-align: center;
 }
 
-#tecnam .one:nth-child(3) .details{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: flex-end;
-  text-align: end;
+.single-service h3{
+  letter-spacing: 1px;
+  color: #262626;
+}
+
+.social{
+  width: 60px;
+  height: 60px;
+  background: #262626;
+  border-radius: 50%;
+  margin: 5% auto;
+}
+
+.social i{
+  font-size: 30px;
+  padding: 15px;
 }
 
 
