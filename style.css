@@ -148,9 +148,17 @@ button:hover{
   align-items: flex-start;
 }
 
-
 #home span{
   color: #991d1d;
+}
+
+#home .slink{
+  text-decoration: none;
+  color: white;
+}
+
+#home .slink:hover{
+  text-decoration: none;
 }
 
 #tecnam{
