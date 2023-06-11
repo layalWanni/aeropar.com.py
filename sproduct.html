@@ -31,6 +31,20 @@
             transition: 0.3s all;
         }
 
+        .alink{
+            text-decoration: none;
+            color: white;
+        }
+
+        .alink:hover{
+            color: white;
+            text-decoration: none;
+        }
+
+        #catalogo{
+            padding-top: 0;
+        }
+
     </style>
 
 </head>
@@ -56,7 +70,7 @@
                         <a class="nav-link" href="index.html#tecnam">Tecnam</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#shop">Catálogo</a>
+                        <a class="nav-link active" href="shop.html">Catálogo</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#sobre">Sobre</a>
@@ -94,7 +108,7 @@
                 <h6>Aircraft / Tecnam</h6>
                 <h3 class="mt-4 mb-2">P2012 Traveller</h3>
                 <h5 class="mb-4">Aeronave Bimotor</h5>
-                <button class="buy-btn">Mas informaciones</button>
+                <button class="buy-btn"><a class="alink" target="_blank" href="">Mas informaciones</a></button>
                 <h4 class="mt-5 mb-4">Detalles del Producto</h4>
 
                 <span>¡Un avión, cinco configuraciones! Totalmente intercambiable, el TECNAM P2012 Traveller bimotor de
@@ -102,13 +116,77 @@
                     propósito especial... y viceversa. Desarrollado por el equipo de Investigación y Desarrollo de
                     TECNAM dirigido por el renombrado y galardonado experto Profesor Luigi Pascale, de acuerdo con las
                     últimas necesidades del mercado y su estilo italiano único.</span>
-                <p class="mt-4"><a href="https://www.tecnam.com/wp-content/uploads/2020/11/P2012-Brochure-210707.pdf"
+                <p class="mt-4"><a href=""
                         target="_blank">Brochure PDF</a></p>
 
             </div>
-
         </div>
     </section>
+
+    <section id="catalogo" class="my-5 pb-5">
+        <div class="container text-center mt-5 py-5">
+          <h3>Explora más</h3>
+          <hr class="mx-auto">
+          <p>Aquí puedes consultar algunos de nuestros aviones Tecnam</p>
+        </div>
+    
+        <div class="row mx-auto container-fluid">
+    
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-3" src="/img/catalogo-principal/1.png" alt="">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Aviao 1</h5>
+            <button class="buy-button">Más Sobre</button>
+          </div>
+    
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-3" src="/img/catalogo-principal/2.png" alt="">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Aviao 2</h5>
+            <button class="buy-button">Más Sobre</button>
+          </div>
+    
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-3" src="/img/catalogo-principal/3.png" alt="">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Aviao 3</h5>
+            <button class="buy-button">Más Sobre</button>
+          </div>
+    
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid mb-3" src="/img/catalogo-principal/4.png" alt="">
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h5 class="p-name">Aviao 4</h5>
+            <button class="buy-button">Más Sobre</button>
+          </div>
+    
+        </div>
+    
+      </section>
 
     <footer class="mt-5 py-5">
         <div class="row container mx-auto pt-5">
