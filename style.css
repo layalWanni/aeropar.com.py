@@ -153,11 +153,6 @@ button:hover{
   color: #991d1d;
 }
 
-#home .slink{
-  text-decoration: none;
-  color: white;
-}
-
 #home .slink:hover{
   text-decoration: none;
 }
